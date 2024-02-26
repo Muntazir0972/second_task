@@ -1,0 +1,206 @@
+@media screen and (max-width:1024px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+ .first-container{
+    width: 100%;
+    
+ } 
+
+ .nav-bar{
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+ .not-display-categories{
+    display: none !important;
+ }
+
+ .not-display-quickfind{
+    display: none !important;
+ }
+
+ .not-display-pages{
+    display: none !important;
+ }
+ 
+ .second-container{
+    width: 100%;
+
+ }
+
+ /* .categories-section{
+    width: 100%;
+ }
+
+ .categories-section img{
+    height: auto;
+    max-height: 100%;
+
+ }
+
+ .categories-section button{
+    width: 80%;
+
+ }
+
+ .headphones{
+    width: 164px;
+    height: 201px;
+ } */
+
+ .categories-section{
+    width: 100%;
+    gap: 10px;
+
+ }
+
+ .categories-section button{
+    width: 80%;
+ }
+
+ .headphones{
+    width: 18%;
+    
+ }
+
+ .headphones img{
+    height: 200px;
+    width: 165px;
+ }
+
+ .smartphones{
+    width: 18%;
+ }
+
+ .smartphones img{
+    height: 200px;
+    width: 165px;
+
+ }
+
+ .laptops{
+    width: 18%;
+
+ }
+
+ .laptops img{
+    height: 200px;
+    width: 165px;
+
+ }
+
+ .smartwatches{
+    width: 18%;
+ }
+
+ .smartwatches img{
+    height: 200px;
+    width: 165px;
+
+ }
+
+ .tablets{
+    width: 18%;
+ }
+
+ .tablets img{
+    height: 200px;
+    width: 165px;
+ }
+
+ .apple-section{
+    width: 100%;
+ }
+
+ .apple-left{
+     width: 50%;
+ }
+
+ .apple-right{
+    width: 50%;
+}
+
+ .products-section{
+    width: 100%;  
+    height: 1000px; 
+
+ }
+
+ .two-in-a-row{
+   width: 48%;
+ }
+
+ .products-line1{
+    /* width: 100%; */
+    margin: 0;
+ }
+
+ .gadgets{
+    height: 300px;
+    margin: 0;
+    padding: 0;
+ }
+
+ .imgg{
+    height: 150px;
+ }
+
+ .gadgets-details{
+    width: 100%;
+    height: 80px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    padding-left: 10px;
+ }
+
+ .review-star{
+    height: 50px;
+    padding-top: 5px;
+ }
+
+ .product-title{
+    color: black;
+    font-kerning: normal;
+ }
+
+ .product-pic{
+    height: 120px;
+    width: 120px;
+ }
+
+ .news-section{
+    width: 100%;
+ }
+
+ .newsletter-section{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .footer{
+    width: 100%;
+ }
+
+ /* .nl-left{
+   padding-left: 30px;
+ } */
+
+ .nl-right input{
+      width: 250px;
+ }
+ 
+}

@@ -1,0 +1,343 @@
+@media screen and (max-width:425px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-logo{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.nav-icons{
+    width: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.bag-icon{
+    margin: 0px;
+    height: 48px;
+    width: 400px;
+    font-size: 18px;
+    padding-right: 14px;
+    margin-left: 70px;
+}
+
+.nav-logo img{
+    width: 140px;
+    height: 32px;
+}
+
+.first-container{
+    width: 425px;
+    margin: 0;
+    padding: 0;
+}
+
+.third-container{
+    width: 100%;
+}
+
+.vr-section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-evenly;
+    height: 1200px;
+}
+
+
+.deal{
+    margin: 0px;
+    padding: 0px;
+    width: 180px;
+}
+
+
+.vr-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.vr-left h2{
+    padding-top: 30px;
+    line-height: 1.6;
+    font-size: 48px;
+}
+
+.vr-para{
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px 5%;
+    margin-top: 30px;
+
+}
+
+.btn-timer{
+     margin-top: 30px;
+}
+
+.slider-backimg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.left-text h1{
+    font-size: 42px;
+    line-height: 70px;
+    margin-top: 30px;
+}
+
+.left-text p{
+    margin-top: 40px;
+    line-height: 35px;
+}
+
+.left-btns{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.explore-btn{
+    width: 190px;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.explore-btn i{
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.watchnow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.watchnow-btn p{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    
+}
+
+.right-imgslider{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.right-imgslider img{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.categories-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.categories-section button{
+    width: 70%;
+    height: 60px;
+ }
+
+.headphones{
+    width: 95%;
+}
+
+.headphones img{
+    width: 90%;
+    height: 300px;
+}
+
+.smartphones{
+    width: 95%;
+}
+
+.smartphones img{
+    width: 90%;
+    height: 300px;
+}
+
+.laptops{
+    width: 95%;
+}
+
+.laptops img{
+    width: 90%;
+    height: 300px;
+}
+
+.smartwatches{
+    width: 95%;
+}
+
+.smartwatches img{
+    width: 90%;
+    height: 300px;
+}
+
+.tablets{
+    width: 95%;
+}
+
+.tablets img{
+    width: 90%;
+    height: 300px;
+}
+
+.nl-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nl-left h2{
+   font-size: 34px;
+}
+
+.nl-left p{
+    font-size: 14px;
+ }
+
+.nl-left-tag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nl-right input{
+    height: 50px;
+    width: 200px;
+}
+
+.nl-right button{
+    height: 50px;
+    width: 100px;
+}
+
+
+.products-section{
+    height: 3900px;
+}
+
+.products-line1{
+      width: 100%;
+}
+
+.products-line2{
+    width: 100%;
+
+}
+
+.products-line3{
+    width: 100%;
+     
+}
+
+.gadgets-details h5{
+      font-size: 22px;
+}
+
+.gadgets-details p{
+    font-size: 21px;
+}
+
+.gadgets-details{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-in-a-row .gadgets{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.two-in-a-row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    width: 100%;
+}
+
+.second-foot{
+    width: 100%;
+}
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+}
